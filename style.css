@@ -54,12 +54,12 @@ button:hover {
 /* DIXY MICRO ANIMATIONS */
 
 /* Avoid FUC on frontend*/
-.bricks-is-frontend .dixy-animate{
-  opacity:0 !important;
+.bricks-is-frontend .dixy-animation-trigger{
+  opacity:0;
 }
  
 /* Animated Class*/
-.dixy-animate-start{
+.dixy-animate{
   animation-name: fadeAnimation;
   animation-delay: calc(var(--delay, 0) * 200ms);
   animation-duration: var(--duration, 400ms);
